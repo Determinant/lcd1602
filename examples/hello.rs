@@ -21,7 +21,7 @@ fn main() -> ! {
     lcd.init(driver::LCD16X2_DISPLAY_ON_CURSOR_OFF_BLINK_OFF);
     lcd.set_backlight(true);
     lcd.puts("Hello, world!");
-    hprintln!("Hello world!").unwrap();
+    //hprintln!("Hello world!").unwrap();
     let custom_char: [u8; 8] = [0x0e, 0x1b, 0x11, 0x11, 0x11, 0x11, 0x1f, 0x1f];
     let mut cnt = 0;
     let mut sym = 0;
