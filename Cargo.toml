@@ -15,11 +15,6 @@ panic-halt = "0.2.0"
 version = "0.8.0"
 features = ["stm32f103", "rt"]
 
-[[bin]]
-name = "lcd1602"
-test = false
-bench = false
-
 [lib]
 name ="lcd1602"
 path = "src/lib.rs"
